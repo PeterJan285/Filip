@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home-page/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./home-page/Images/p-logo.png">
+    <title>Peter's Portfolio - Home</title>
+
+</head>
+<body>
+    
+        <!--------- NAV BAR ----------->
+        <nav class="navbar">
+
+             <div class="logo">
+                <a href="./index.html"><img src="./home-page/images/p-logo.png" alt=""></a>
+            </div>
+            
+            <a href="#" class="toggle-button">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <div class="navbar-links">
+              <ul>
+                <li id="current-page"><a href="./index.html">Home</a></li>
+                <li><a href="./projects-page/projects.html">Projects</a></li>
+              </ul>
+            </div>
+          </nav>
+
+    <!--------- HERO (VIDEO) ---------->
+    <div class="hero-wrap">
+        <video autoplay loop muted src="./home-page/images/hero-video.mp4"></video>
+
+        <div class="hero-intro">
+            <img src="./home-page/images/peter-img.jpg" alt="">
+            <h1>I'm <span>Peter</span>, <br> Welcome to my portfolio.</h1>
+        </div>
+       
+
+    </div>
+
+
+<!-------------- INTRO -------------->
+
+    <div class="intro-wrap">
+        <div class="intro">
+        <h2>About</h2>
+        <p> I'm entry level front-end developer and my goal is to create great looking websites and fulfill my potential. On the side, and as a way to reinforce what I have already learned, I create simple <a href="https://www.youtube.com/channel/UCoCqhvhXHDZaH2BO9A3NIkg/videos">Youtube tutorials.</a></p>
+
+        <h2>Skills</h2>
+        <p>With daily discipline I'm learning more and more every day throught technology documentation and coding exercises.</p>
+
+        <h2>Vision</h2>
+        <p>In the next 6 months my goal is to learn more of JS, and also get into React.</p>
+        </div>
+    </div>
+      
+<!----------- TECHNOLOGIES ------------->
+    <div class="technologies">
+        <h4>Technologies I am comfortable with</h4>
+    </div>
+
+    <section class="articles-container">
+        <article class="html all"></article>
+        <article class="css all"></article>
+        <article class="js all"></article>
+        <article class="git all"></article>
+        <article class="git-hub all"></article>
+        <article class="sass all"></article>
+        <article class="bootstrap all"></article>
+        <article class="wordpress all"></article>
+        <article class="photoshop all"></article>
+        <article class="figma all"></article>
+    </section>
+
+<!--------- FOOTER ----------->
+    <footer>
+        <div class="row">
+
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./projects-page/projects.html">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/peter321" target="_blank">LinkedIn</a></li>
+                    <li onclick="mailDisplay()"><a href="">Email</a></li>
+                </ul>
+            </div>
+
+            <form action="https://formsubmit.co/peter.jandric.92@gmail.com" method="POST">
+                <span>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                </span>
+                <textarea placeholder="Your message" rows= "5" cols= "60" name= "description" required></textarea>
+                <button type="submit">Submit</button>
+                <!-- captcha disable and thank you page -->
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <input type="hidden" name="_captcha" value="false">
+           </form>
+
+        </div>
+    </footer>
+
+
+    <script>
+        function mailDisplay() {
+          alert("peter.jandric.92@gmail.com");
+        }
+        </script>
+    <script src="https://kit.fontawesome.com/b32b5733af.js" crossorigin="anonymous"></script>
+    <script src="./home-page/app.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- 
+    About
+   I'm entry level front-end developer and my goal is to create great looking websites and fulfill my potential. On the side, and as a way to reinforce what I have already learned, I create simple Youtube tutorials -->
+
+
+<!-- 
+    Skills
+    I'm learning more and more every day throught exploration, coding challenges, and technology documentation.
+ -->
+
+<!-- Ambitions
+ In the next 6 months my goal is to learn much more of JS, and also get into React. -->
